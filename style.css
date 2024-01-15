@@ -1,0 +1,26 @@
+body {
+    background-color: #1b1c1c;
+    color: whitesmoke;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+#info p {
+    margin: 0;
+}
+
+#info button{
+    margin-left: auto;
+}
